@@ -1,8 +1,28 @@
 aid: mdclone
-name: Mdclone
-description: Mdclone is a company surfaced as a portfolio company of lightspeed-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+name: MDClone
+description: >-
+  MDClone is a healthcare data company whose ADAMS platform gives health systems,
+  life-sciences organizations, and researchers self-service access to explore, analyze,
+  and share clinical data. Its signature capability is a synthetic-data engine that
+  generates non-reversible, artificially created datasets which preserve the statistical
+  characteristics and correlations of real patient data without carrying any protected
+  health information (PHI), removing re-identification risk. The platform lets users
+  organize source data, generate synthetic versions on demand, run analytics, and apply
+  generative AI to accelerate research and improve patient outcomes. MDClone is
+  enterprise/customer-gated: access, support, and any programmatic data-export API are
+  provisioned to licensed customers rather than published as a public developer program.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://mdclone.com/wp-content/uploads/2023/11/MDClone_Logo_Color.svg
 url: https://raw.githubusercontent.com/api-evangelist/mdclone/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +32,40 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Healthcare
+- Synthetic Data
+- Data Analytics
+- Clinical Data
+- Health Data
+- Privacy
+- Life Sciences
+- Artificial Intelligence
 apis: []
+common:
+- type: DomainSecurity
+  url: security/mdclone-domain-security.yml
+- type: Website
+  url: https://www.mdclone.com
+- type: About
+  url: https://mdclone.com/about-mdclone/
+- type: Blog
+  url: https://mdclone.com/product-resources/blog/
+- type: Support
+  url: https://mdclone.atlassian.net/servicedesk/customer/portal/7
+- type: PrivacyPolicy
+  url: https://mdclone.com/privacy-policy/
+- type: GitHubOrganization
+  url: https://github.com/mdclone
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
