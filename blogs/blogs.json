@@ -2,6 +2,13 @@
   "repo": "mdclone",
   "feeds": [
     {
+      "source": "https://mdclone.com/feed/",
+      "feed_url": "https://mdclone.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
       "source": "https://mdclone.com/about-mdclone/",
       "feed_url": "https://mdclone.com/feed/",
       "title": "",
@@ -9,6 +16,6 @@
       "method": "discovered"
     }
   ],
-  "post_count": 0,
-  "fetched": "2026-07-25T15:00:33Z"
+  "post_count": 10,
+  "fetched": "2026-08-01T15:49:00Z"
 }
