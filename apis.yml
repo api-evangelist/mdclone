@@ -11,6 +11,17 @@ description: >-
   generative AI to accelerate research and improve patient outcomes. MDClone is
   enterprise/customer-gated: access, support, and any programmatic data-export API are
   provisioned to licensed customers rather than published as a public developer program.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
