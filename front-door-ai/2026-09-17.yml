@@ -1,0 +1,30 @@
+# Front Door AI Index — mdclone — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: mdclone
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.mdclone.com
+  final_host: mdclone.com
+  ownership: own
+  owner: mdclone
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 9
+  host_score: 9
+  density: 7.35
+  words: 1224
+  tiers:
+    agentic: 1
+    core: 8
+    model: 0
+  ambiguous: 1
+  top_terms:
+    AI: 4
+    deep learning: 2
+    artificial intelligence: 1
+    copilot: 1
+    generative ai: 1
+    intelligence: 1
